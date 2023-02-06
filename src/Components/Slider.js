@@ -11,7 +11,6 @@ function Slider() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
           <p>Your Rental Home.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -23,7 +22,6 @@ function Slider() {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
           <p>Your Rental Home.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -35,7 +33,6 @@ function Slider() {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
           <p>
             Best Cars for low cost Rental.
           </p>

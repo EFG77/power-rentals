@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Container,Row,Col } from 'react-bootstrap';
 import AddUserForm from './AddUserForm';
 import Users from './Users';
+import './Plan.css'
 
 class Plan extends Component {
   constructor(props){
@@ -65,6 +66,11 @@ this.setState({
           </Col>
           <Col>
           <Users UsersData={this.state.users} deleteUser={this.deleteUser} editUser={this.editUser}/>
+          </Col>
+          <Col>
+          <p className='ptext'>Place a rental request with us today!!!.
+             We will contact you to finalize the rental.
+          </p>
           </Col>
         </Row>
       </Container>
