@@ -20,6 +20,12 @@ function Header() {
             <Nav.Link href="#rental">
               <Link className='nlink' to={'/Rental'}>Rental</Link>
               </Nav.Link>
+            <Nav.Link href="#sevices">
+              <Link className='nlink' to={'/Services'}>Services</Link>
+              </Nav.Link>
+            <Nav.Link href="#Contact">
+              <Link className='nlink' to={'/Contact'}>Contact</Link>
+              </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
